@@ -8,4 +8,4 @@ Keep in mind that version is still on the **alpha** phase, that means that it's 
 I am starting this project out of the reason that there are no free cloud streaming music players out there, so the heck with it, why don't I create one? Also, I wanted to make myself more comfortable with ReactJS and NodeJS for other big projects I'm building.
 
 ### Got Any questions?
-[Here is my facebook](www.facebook.com/lonelyaff)
+[Here is my facebook](https://www.facebook.com/lonelyaff)
