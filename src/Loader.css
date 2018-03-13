@@ -1,0 +1,10 @@
+body {
+    background-color: #1e1e24
+}
+
+.hello {
+    font-family: sans-serif;
+    color: #d8572a;
+    text-align: center;
+    text-shadow: 10px;
+}
