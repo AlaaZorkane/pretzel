@@ -1,9 +1,6 @@
-body {
-    background-color: #1e1e24
-}
-
-.hello {
-    color: #d8572a;
-    text-align: center;
-    text-shadow: 10px;
+.pretzel {
+    background-color: royalblue;
+    font-size: 200px;
+    color: tomato
+    
 }
