@@ -4,7 +4,7 @@ import './Loader.css';
 import registerServiceWorker from './registerServiceWorker';
 import Loader from './Loader';
 import semantic from 'semantic-ui-react'
-import './semantic/src/dist/semantic.css';
+import './semantic/src/dist/semantic.min.css';
 
 
 ReactDOM.render(<Loader />, document.getElementById('root'));
