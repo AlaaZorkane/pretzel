@@ -55,12 +55,32 @@
 }
 
 .logo {
-    color: #ffffff;
+	color: #ffffff;
     text-shadow: 0 0 10px rgb(59, 59, 59);
     font-family: 'Sofia', cursive;
     font-size: 100px;
     text-align: center;
-    position: relative;
-    top: 30%;
-    transform: translateY(-50%);
+	position: relative;
+	margin-left: 480px;
+	margin-right: 480px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+    top: 20%;
+	transform: translateY(-50%);
+	transition: font-size 300ms ease;
+	-webkit-transition: font-size 300ms ease;
+	-moz-transition: font-size 300ms ease;
+}
+
+#logo:hover {
+	font-size: 120px
+}
+
+#salt {
+	color: rgb(240, 184, 195);
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 45%;
 }
