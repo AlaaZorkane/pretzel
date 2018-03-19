@@ -77,10 +77,16 @@
 }
 
 #salt {
+	opacity: 0;
 	color: rgb(240, 184, 195);
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	text-align: center;
 	position: relative;
 	top: 45%;
+	-webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
 }
