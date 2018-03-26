@@ -2,26 +2,15 @@
 	width: 100wh;
 	height: 100vh;
 	color: #fff;
+	background: -webkit-linear-gradient(135deg, #202020, #393c6d, #17183b);
+	background: -o-linear-gradient(135deg, #202020, #393c6d, #17183b);
 	background: linear-gradient(-45deg, #202020, #393c6d, #17183b);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
 	}
@@ -48,13 +37,15 @@
 .loaderMain {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-    -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 
 .logo {
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
 	color: #ffffff;
     text-shadow: 0 0 10px rgb(59, 59, 59);
     font-family: 'Sofia', cursive;
@@ -66,7 +57,10 @@
 	margin-top: 30px;
 	margin-bottom: 10px;
     top: 20%;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	-o-transition: font-size 300ms ease;
 	transition: font-size 300ms ease;
 	-webkit-transition: font-size 300ms ease;
 	-moz-transition: font-size 300ms ease;
@@ -85,8 +79,17 @@
 	position: relative;
 	top: 45%;
 	-webkit-transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -ms-transition: all 2s ease-in-out;
     -o-transition: all 2s ease-in-out;
     transition: all 2s ease-in-out;
+}
+
+#kid {
+	display: block;
+	margin : auto;
+	position: relative;
+	top: 24%;
+    width: 13%;
+	height: auto;
+	-webkit-animation-duration: 3.5s;
+	        animation-duration: 3.5s;
 }

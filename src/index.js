@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Loader.css';
+import './loading.css';
 import registerServiceWorker from './registerServiceWorker';
 import Load from './Load';
 import semantic from 'semantic-ui-react'
