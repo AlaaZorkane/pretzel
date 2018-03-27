@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "graceful-fs": "^4.1.11",
-    "howler": "^2.0.9",
     "minimatch": "^3.0.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
