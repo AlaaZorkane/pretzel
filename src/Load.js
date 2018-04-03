@@ -19,7 +19,7 @@ function RandomText() {
     return <h2 id="salt">{txts[index]}</h2>;
 }
 function Loading() {
-    return <img src={part} id="kid"/>;
+    return <img src={part} id="kid" alt="kid" />;
 }
 function play(){
     var audio = document.getElementById("audio");

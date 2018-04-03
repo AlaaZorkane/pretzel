@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Loader.css';
-import './loading.css';
 import registerServiceWorker from './registerServiceWorker';
-import Load from './Load';
+import Login from './components/Login';
 import semantic from 'semantic-ui-react'
 import './semantic/src/dist/semantic.min.css';
 
 
-ReactDOM.render(<Load />, document.getElementById('root'));
+ReactDOM.render(<Login />, document.getElementById('root'));
 registerServiceWorker();

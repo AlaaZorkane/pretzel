@@ -1,0 +1,9 @@
+#background {
+    width: 1366px;
+    height: 693px;
+    background: center center no-repeat;
+    background-size : cover;
+    overflow: hidden;
+    background-image: url(../assets/background.png);
+    filter: blur(2.5px);
+}
